@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  simple-service:
+    build: ./
+    volumes:
+      - ./:/app
+    ports:
+      - 3000:3000
